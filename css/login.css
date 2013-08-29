@@ -1,0 +1,93 @@
+body{
+	color:#FFFFFF;	
+	font:12px/1.5 'Trebuchet MS', Arial, 'Liberation Sans', FreeSans, sans-serif;
+	background:#000330 url(../images/signin_bg.jpg) top no-repeat;
+}
+div.spacer_100{
+	height:100px;
+	clear:both;
+	display:block;
+}
+div.login{
+		text-align:center;
+		height:398px;
+		width:484px;
+}
+div.login h2{
+	margin-bottom:0;
+}
+#login_table{
+	margin-left:65px;
+}
+#t_login{
+	margin-bottom:0;
+	margin-left:60px;
+}
+input.general{
+	width:210px;
+	height:35px;
+	background:#1e4f8a;
+	color:#FFFFFF;
+}
+table tr td{
+	padding:2px;
+}
+div.signin{
+	text-align:center;
+}
+div.signin h2{
+	margin-top:90px;
+}
+.signin h4{
+	margin-bottom:0;
+}
+.signin p{
+	margin-top:0;
+}
+.signin_btn, .login_btn{
+	background:none;
+	border:none;
+}
+.top {
+margin-bottom: 15px;
+}
+.buttondiv {
+margin-top: 10px;
+}
+.messagebox{
+	width:auto;
+	margin-left:30px;
+	border:1px solid #000000;
+	background:#ffc;
+	padding:3px;
+	color:#333333;
+}
+.messageboxok{
+	width:auto;
+	margin-left:30px;
+	border:1px solid #349534;
+	background:#C9FFCA;
+	padding:3px;
+	color:#008000;
+	
+}
+.messageboxerror{
+	width:auto;
+	border:1px solid #CC0000;
+	background:#F7CBCA;
+	color:#CC0000;
+	clear:both;
+	display:block;
+}
+#tipo_usuario p{
+	margin-top:0;
+	margin-left:39%;
+}
+#search_button {
+    background: url("../images/boton_buscar.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: inline;
+    height: 30px;
+    width: 80px;
+}

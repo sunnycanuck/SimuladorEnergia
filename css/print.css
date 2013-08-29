@@ -1,0 +1,43 @@
+body {
+  color : #000000;
+  background : #ffffff;
+  font-family : "Times New Roman", Times, serif;
+  font-size : 12pt;
+}
+a {
+  text-decoration : underline;
+  color : #0000ff;
+}
+#reporte hr{
+	margin:10px 0 20px 0;
+}
+#reporte table{
+	border:1px solid #CCC;
+	width:100%;
+	margin-bottom:20px;
+}
+#reporte table tr td{
+	padding:6px;
+	border:1px solid #CCC;
+	vertical-align:middle;
+	text-align:center;
+}
+#reporte table thead{
+	background:#666666;	
+}
+#reporte table thead th{
+	padding:6px;
+	color:#FFF;
+	border:1px solid #CCC;
+	text-align:center;
+}
+#reporte .headback{
+	background:#666666;
+	text-align:center;
+	color:#FFFFFF;
+}
+#print-container{
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+}

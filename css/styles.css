@@ -1,0 +1,662 @@
+div.spacer_2{height:2px; background:#010532;}
+div.spacer_3{height:3px;}
+div.spacer_5{height:5px;}
+div.spacer_10{height:10px;}
+div.spacer_20{height:20px;}
+div.spacer_23{height:23px;}
+div.spacer_25{height:25px;}
+div.spacer_30{height:30px;}
+div.spacer_50{height:50px;}
+div.spacer_100{
+	height:100px;
+	clear:both;
+	display:block;
+}
+.center{text-align:center;}
+.right{text-align:right;}
+fieldset{
+	border:1px dashed #666666;
+	padding:10px;
+}
+legend{
+	margin-left:10px;
+}
+a{
+	color:#010532;
+}
+a:hover{
+	color:#999999;
+}
+.modulos{
+	min-height:500px;
+}
+#logos{
+	height:75px;
+}
+#menu{
+	width:100%;
+	background:url(../images/btn_bg.png) repeat;
+}
+#menu_secundario{
+	background:#FFF;
+}
+#menu_secundario a{
+	text-decoration:none;
+	color:#333;
+	position:relative;
+	top:7px;
+	font-size:23px;
+}
+#menu_secundario a:hover{
+	color:#999;
+}
+#menu_admin{
+	text-align:center;
+}
+#menu_secundario ul li, #menu_admin ul li{
+	list-style:none;
+	display:inline-block;
+	height:30px;	
+}
+#menu_secundario ul li:first-child{
+	margin-left:0;
+}
+#menu_secundario ul li:nth-child(2){
+	margin-left:110px;
+}
+#menu_secundario ul li:nth-child(3){
+	margin-left:127px;
+}
+#menu_secundario ul li:nth-child(4){
+	margin-left:70px;
+}
+#menu_secundario ul{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:12px;
+}
+#menu_secundario img{
+	position:relative;
+	top:-2px;
+}
+.menu-secundario-pasos{
+	background:#690;
+	padding:4px 8px;
+	color:#FFFFFF;
+	-moz-border-radius:20px 20px 20px 20px;
+	-webkit-border-radius:20px 20px 20px 20px;
+	border-radius:20px 20px 20px 20px;
+	font-size:12px;
+	position:relative;
+	top:4px;
+}
+.spacer_btn{
+	margin:0 4px 0 4px;				
+}
+#titulo_pagina{
+	color:#FFFFFF;
+	text-align:center;
+	margin-top:20px;
+}
+#contenido{
+}
+#main_izq, #main_der, #acerca{
+	text-align:left;
+}
+#footer{
+	text-align:center;
+	color:#FFFFFF;
+}
+/*------------------------------ SLIDER ------------------------------*/
+
+.main_view {
+	float: left;
+	position: relative;
+}
+.window {
+	height:297px;	
+	width: 940px;
+	overflow: hidden;
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0; left: 0;
+}
+.image_reel img {float: left;}
+
+.paging {
+	position: absolute;
+	bottom: 40px; right: -6px;
+	width: 178px; height:47px;
+	z-index: 100;
+	text-align: center;
+	line-height: 40px;
+	background: url(../images/paging_bg2.png) no-repeat;
+	display: none;
+}
+.paging a{
+	padding: 5px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.paging a.active{
+	font-weight: bold; 
+	background: #920000; 
+	border: 1px solid #610000;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.paging a:hover {font-weight: bold;}
+/*------------------------------ SLIDER ------------------------------*/
+div.login{
+	background:#FFF url(../images/login_bg.png) center no-repeat;
+	width:610px;
+	height:458px;
+	text-align:center;
+}
+div.login h2{
+	color:#FFFFFF;
+	position:relative;
+	top:100px;
+}
+#tabla_login{
+	position:absolute;
+	left:162px;
+}
+#user_field{
+	text-align:center;
+	color:#FFF;
+	background: url(../images/btn_bg.png) repeat;
+}
+#user_field p{
+	margin-top:10px;
+	font-size:12px;
+	margin-bottom:0;
+}
+#user_field img{
+	position:relative;
+	top:-2px;
+}
+#user_field a{
+	color:#FFFFFF;
+}
+#user_field a:hover{
+	color:#999;
+}
+
+#alta_proveedor{
+	text-align:right;
+}
+table#alta_proveedores{
+	margin-bottom:0;
+	width:100%;
+}
+table#alta_proveedores tr td{
+	padding:3px;
+	vertical-align:middle;
+}
+#lada, #lada_fax{
+	width:20%;
+}
+.ErrorField {
+	border: #DD0000;
+}
+span.ValidationErrors {
+	color: #DD0000;
+	display: block;
+	font-size: 12px;
+	font-style: italic;
+	padding-left: 10px;
+}
+.msj{
+	background:#A6F16C;
+	border:1px solid #409300;
+	padding:10px 0;
+	margin-bottom:20px;
+	text-align:center;
+}
+.msjerror{
+	background:#FF0D00;
+	border:1px solid #A60800;
+	padding:10px 0;
+	margin-bottom:20px;
+	text-align:center;
+	color:#FFFFFF;
+}
+div.login_admin input.general{
+	width:210px;
+	height:35px;
+	background:#1e4f8a;
+	color:#FFFFFF;
+	border:0;
+}
+div.login_admin table tr td{
+	padding:3px;
+}
+.messagebox{
+	width:auto;
+	margin-left:30px;
+	border:1px solid #000000;
+	background:#ffc;
+	padding:3px;
+	color:#333333;
+	border-radius: 7px 7px 7px 7px;
+	padding: 3px 4px;
+}
+.messageboxok{
+	width:auto;
+	margin-left:30px;
+	border:1px solid #349534;
+	background:#C9FFCA;
+	padding:3px;
+	color:#008000;
+	border-radius: 7px 7px 7px 7px;
+	padding: 3px 4px;
+	
+}
+.messageboxerror{
+	width:auto;
+	border:1px solid #CC0000;
+	background:#F7CBCA;
+	color:#CC0000;
+	clear:both;
+	display:block;
+	border-radius: 7px 7px 7px 7px;
+	padding: 3px 4px;
+}
+
+.messageboxadmin{
+	border:1px solid #000000;
+	background:#ffc;
+	color:#333333;
+	border-radius: 7px 7px 7px 7px;
+	padding: 5px;
+}
+.messageboxokadmin{
+	width:auto;
+	margin-left:30px;
+	border:1px solid #349534;
+	background:#C9FFCA;
+	color:#008000;
+	border-radius: 7px 7px 7px 7px;
+	padding: 5px;
+	
+}
+.messageboxerroradmin{
+	border:1px solid #CC0000;
+	background:#F7CBCA;
+	color:#CC0000;
+	display:block;
+	border-radius: 7px 7px 7px 7px;
+	padding: 5px;
+}
+table#activar_proveedores{
+	width:100%
+}
+table#activar_proveedores thead tr td{
+	background:#0091E6;
+	color:#FFFFFF;
+	text-align:center;
+	min-width:70px;
+	padding:5px 0 5px 0;
+	border:1px solid #FFF;
+}
+table#activar_proveedores thead tr td#izq{
+	border-radius:5px 0 0 0;
+}
+table#activar_proveedores thead tr td#der{
+	border-radius:0 5px 0 0;
+}
+table#activar_proveedores thead tr td img{
+	margin-top:-5px;
+}
+table#activar_proveedores tbody td{
+	padding:5px;
+	border-right:1px solid #FFF;
+}
+table#activar_proveedores tr td table tr td{
+	border:none
+}
+table#activar_proveedores tr td table{
+	width:100%;
+	margin-bottom:0;
+}
+.par{
+	background:#D6E3F9;
+}
+.par2{
+	background:#EAECEE;
+}
+.non{
+	background:#94bcff;
+}
+.non2{
+	background:#B4D1FD;
+}
+.link_blanco{
+	color:#FFFFFF;
+}
+.general{
+	background: none repeat scroll 0 0 #1E4F8A;
+	border:0;
+	color: #FFFFFF;
+	height: 35px;
+	width: 210px;
+	border-radius: 7px 7px 7px 7px;
+	margin: 0 5px 0 0;
+  padding: 3px 4px;
+}
+.general2{
+	background: none repeat scroll 0 0 #1E4F8A;
+	border:0;
+	color: #FFFFFF;
+	height: 25px;
+	width: 210px;
+	border-radius: 4px 4px 4px 4px;
+	margin: 0 5px 0 0;
+  padding: 3px 4px;
+}
+.width96{
+	width:96%;
+}
+.widthsmall{
+	width:30px;
+}
+td#terreno_num{
+	background:#565656;
+	color: #FFFFFF;
+  text-align: center;
+	width:40px;
+}
+#terrenos_tabla{
+	border:1px solid #000;
+	width:100%;
+}
+#terrenos_tabla tr td{
+	border:1px solid #000;
+}
+#terrenos_tabla tr td table tr td{
+	border:none;
+}
+table#terrenos_tabla tr td#terreno_nombre{
+	border-right:0;
+}
+table#terrenos_tabla tr td#terreno_botones{
+	border-left:0;
+}
+table#terrenos_tabla h5{
+	margin-bottom:0;
+}
+#terreno_datos table tr td{
+	border:none;
+	padding-right:10px;
+}
+#terreno_datos table tr td img{
+	margin-left:10px;
+}
+#casos_tabla{
+	width:100%;
+	margin-bottom:0;
+	border: 1px solid #000000;
+}
+#casos_tabla tr td{
+	border-right:1px solid #000;
+	padding-top:5px;
+}
+#casos_tabla tr td:last-child{
+	border-right:0;
+}
+#terreno_num.par{
+	background:#51afe5;
+}
+#terreno_num.non{
+	background:#565656;
+}
+h6#usuario_existe{
+	margin:0; 
+	text-align:center; 
+	color:red;
+}
+.texto_rojo{
+	color:#F00;
+}
+.pasos_recibo_cfe{
+	font-size:30px;
+	font-weight:bold;
+	color:#CCC;
+	position:relative;
+	top:5px;
+}
+.historialdeconsumo li{
+	list-style:none;
+	margin-left:0;
+}
+.historial, .consumo_historico{
+	width:80px;
+}
+ul#list_nota{
+margin-bottom:5px;
+}
+.alert{
+	color:red;
+}
+#fechas_generador table tr td{
+	padding:2px;
+	text-align:center;
+}
+#fechas_generador table tr td.par{
+	background:#D6E3F9;
+}
+#fechas_generador table tr td.non{
+	background:#94BCFF;
+}
+
+#fechas_generador table tr{
+	border:1px solid #FFF;
+}
+#tarifas{
+	width:100%;
+}
+table#tarifas tr{
+	border:1px solid #FFF;
+}
+table#tarifas tr td, table#tarifas tr th{
+	text-align:center;
+}
+.msj_ok{
+	color:#090;
+}
+.msj_error{
+	color:#993300;
+}
+#mensajes{
+	text-align:center;
+}
+#casos_terrenos{
+	/*border:1px solid #000;*/
+}
+span#casos_titulo_terreno{
+	font-size:18px;
+	font-weight:bold;
+}
+#activar_proveedores tr td.var_dis{
+	min-width:20px;
+	width:20px;
+}
+#activar_proveedores tr td table.horarios tr td{
+	border:0;
+}
+.exito, .error, .alert {
+    border: 2px solid;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.exito {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('../images/exito.png');
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('../images/error.png');
+}
+
+.alert {
+    color: #7C560F	;
+    background-color: #FFF5B2;
+    background-image: url('../images/alert.png');
+		min-height:50px;
+}
+.exito p, .error p{
+	margin-left:50px;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.alert p{
+	margin-left:70px;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+#grafica_costoconsumo_titulo h5{
+	position:relative;
+	top:20px;
+}
+div#consumo_inputs ul li{
+	list-style:none;
+	margin-left:0;
+}
+.tabla{
+	margin-bottom:0;
+}
+#agregar, #eliminar{
+	cursor:pointer;
+}
+span.datos_recibo_cfe{
+	font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+}
+.tabla_pqt_fotovol{
+	text-align:left;
+}
+div#factores{height:35px}
+.tipoFotovol{
+	position:relative;
+	top:-5px;
+	width:150px;
+}
+div#botonesAcerca img{
+	margin-left:20px;
+}
+/* --------------- QTIPS ------------------*/
+.info-qtip-img{
+	cursor:pointer;
+}
+/* --------------- RECIBOS ------------------*/
+#btn-modificar-consumo{	
+	width:191px;
+	float:left;
+}
+.tarifa-btn{
+	cursor:help;
+}
+.tarifa-selector{
+	padding-top:13px;
+	float:left;
+}
+.historico-container{
+	overflow:auto;
+	width:362;
+	height:299px;
+	padding-right:5px;
+}
+.consumo-msj-style{
+	padding:5px;
+	background:#FFFFA3;
+	border:1px solid #F1D031;
+	font-size:10px;
+	margin-left:10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	float:left;
+	width:46%;
+}
+.grafica-msj-style{
+	margin-top:20px;
+	padding:5px;
+	background:#FFFFA3;
+	border:1px solid #F1D031;
+	font-size:10px;
+	margin-left:10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	margin-right:10px;	
+}
+.btn-agregar-historico{
+	color:#FFF;
+	cursor:pointer;
+	text-align:center;
+	padding:5px;
+	background: #5C9ACD;
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0.17, rgb(30,79,138)), color-stop(0.51, rgb(80,136,199)), color-stop(1, rgb(92,154,205)) );
+	background: -moz-linear-gradient( center bottom, rgb(30,79,138) 17%, rgb(80,136,199) 51%, rgb(92,154,205) 100% );
+	background: -o-linear-gradient( center bottom, rgb(30,79,138) 17%, rgb(80,136,199) 51%, rgb(92,154,205) 100% );
+	border-radius: 5px;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
+.btn-guardar{
+	color:#CCC;
+	cursor:pointer;
+	text-align:center;
+	background: -webkit-gradient( linear, left bottom, left top, color-stop(0.17, rgb(30,79,138)), color-stop(0.51, rgb(80,136,199)), color-stop(1, rgb(92,154,205)) );
+	background: -moz-linear-gradient( center bottom, rgb(30,79,138) 17%, rgb(80,136,199) 51%, rgb(92,154,205) 100% );
+	background: -o-linear-gradient( center bottom, rgb(30,79,138) 17%, rgb(80,136,199) 51%, rgb(92,154,205) 100% );
+	border-radius: 5px;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
+.guardar-historico{
+	width:205px;
+	height:23px;
+	box-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+.historico-ths{
+	margin:0; 
+	text-align:left;
+	color:#FFF;
+}
+/* --------------- RECIBOS ------------------*/
+/* --------------- REPORTE ------------------*/
+#reporte hr{
+	margin:10px 0 20px 0;
+}
+#reporte table{
+	border:1px solid #CCC;
+	width:100%;
+}
+#reporte table tr td{
+	padding:6px;
+	border:1px solid #CCC;
+	vertical-align:middle;
+	text-align:center;
+}
+#reporte table thead{
+	background:#666666;	
+}
+#reporte table thead th{
+	padding:6px;
+	color:#FFF;
+	border:1px solid #CCC;
+	text-align:center;
+}
+#reporte .headback{
+	background:#666666;
+	text-align:center;
+	color:#FFFFFF;
+}
+/* --------------- REPORTE ------------------*/
